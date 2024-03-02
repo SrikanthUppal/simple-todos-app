@@ -36,12 +36,41 @@
   margin-top: 12px;
   margin-bottom: 16px;
 }
-
+.todo-input {
+  height: 28px;
+  width: 250px;
+  font-family: 'Roboto';
+  padding-left: 6px;
+  color: black;
+  font-weight: 500;
+  border: 1px solid blue;
+  border-radius: 4px;
+}
+.add-button {
+  font-family: 'Roboto';
+  font-size: 14px;
+  height: 28px;
+  border-radius: 4px;
+  font-weight: 500;
+  width: 65px;
+  border: 1px solid blue;
+  background-image: linear-gradient(to right, gray, blue);
+  color: #ffffff;
+  margin-left: 6px;
+}
 @media screen and (min-width: 768px) {
   .heading {
     font-size: 48px;
     margin-top: 32px;
     margin-bottom: 48px;
+  }
+  .todo-input {
+    width: 400px;
+    height: 35px;
+  }
+  .add-button {
+    width: 85px;
+    height: 35px;
   }
 }
 
